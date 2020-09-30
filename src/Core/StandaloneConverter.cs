@@ -21,7 +21,7 @@ with this program; if not, write to the Free Software Foundation, Inc.,
 
 package sharpen.core;
 
-import java.io.BufferedReader;
+import java.io.StreamReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
@@ -73,7 +73,7 @@ public class StandaloneConverter extends SharpenConversion {
 	
 	private char[] ReadFileToCharArray(String filePath) throws IOException {
 		StringBuilder fileData = new StringBuilder(1000);
-		BufferedReader reader = new BufferedReader(new FileReader(filePath));
+		StreamReader reader = new StreamReader(new FileReader(filePath));
  
 		char[] buf = new char[10];
 		int numRead = 0;

@@ -1,93 +1,84 @@
 /* Copyright (C) 2004 - 2008  Versant Inc.  http://www.db4o.com
 
-This file is part of the sharpen open source java to c# translator.
+The original file wass part of the sharpen open source java to c# translator.
 
-sharpen is free software; you can redistribute it and/or modify it under
-the terms of version 2 of the GNU General Public License as published
-by the Free Software Foundation and as clarified by db4objects' GPL 
-interpretation policy, available at
-http://www.db4o.com/about/company/legalpolicies/gplinterpretation/
-Alternatively you can write to db4objects, Inc., 1900 S Norfolk Street,
-Suite 350, San Mateo, CA 94403, USA.
+It has been modified in accordance with the terms of version 2 of 
+the GNU General Public License, available at
+http://www.db4o.com/about/company/legalpolicies/gplinterpretation/ */
 
-sharpen is distributed in the hope that it will be useful, but WITHOUT ANY
-WARRANTY; without even the implied warranty of MERCHANTABILITY or
-FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License
-for more details.
-
-You should have received a copy of the GNU General Public License along
-with this program; if not, write to the Free Software Foundation, Inc.,
-59 Temple Place - Suite 330, Boston, MA  02111-1307, USA. */
+// Copyright (C) 2020 Daniel Giversen
 
 using System;
 using System.IO;
 
 namespace IO
 {
-
+	///<remarks />
 	public class IndentedWriter
 	{
 
-		private final int _maxColumns;
+		private int _maxColumns;
 
 		//Always use crlf for C# output, regardless of platform preference.
-		String _lineSeparator = "\r\n"; //System.getProperty("line.separator");
+		private string _lineSeparator = "\r\n"; //System.getProperty("line.separator");
 
-		String _indentString = "\t";
+		private string _indentstring = "\t";
 
-		int _indentLevel = 0;
+		private int _indentLevel = 0;
 
 		private int _column;
 
 		private Writer _delegate;
 
-		private String _prefix;
+		private string _prefix;
 
+		///<remarks />
 		public IndentedWriter(Writer writer, int maxColumns)
 		{
 			_delegate = writer;
 			_maxColumns = maxColumns;
 		}
 
-		public String getIndentString()
-		{
-			return _indentString;
-		}
+		///<remarks />
+		public Writer Delegate { get => _delegate; }
 
-		public void setIndentString(String indentString)
-		{
-			this._indentString = indentString;
-		}
+		///<remarks />
+		public string Indentstring { get => _indentstring; set => _indentstring = value; }
 
-		public void indent()
+		///<remarks />
+		public void Indent()
 		{
 			++_indentLevel;
 		}
 
-		public void outdent()
+		///<remarks />
+		public void Outdent()
 		{
 			--_indentLevel;
 		}
 
-		public void writeIndented(String s)
+		///<remarks />
+		public void WriteIndented(string s)
 		{
 			writeIndentation();
 			write(s);
 		}
 
-		public void writeIndentedLine(String s)
+		///<remarks />
+		public void WriteIndentedLine(string s)
 		{
 			writeIndentation();
 			writeLine(s);
 
 		}
 
-		public void write(String s)
+		///<remarks />
+		public void Write(string s)
 		{
 			if (_column > _maxColumns)
 			{
 				writeLine();
-				writeIndented(_indentString);
+				writeIndented(_indentstring);
 			}
 			writeBlock(s);
 		}
@@ -95,23 +86,25 @@ namespace IO
 		/**
 		 * write a block of text without checking columns.
 		 */
-		public void writeBlock(String s)
+		public void WriteBlock(string s)
 		{
 			uncheckedWrite(s);
 			_column += s.length();
 		}
 
-		public void writeLine()
+		///<remarks />
+		public void WriteLine()
 		{
-			writeLine("");
+			WriteLine("");
 		}
 
-		public void writeLine(String s)
+		///<remarks />
+		public void WriteLine(string s)
 		{
 			try
 			{
-				_delegate.write(s);
-				_delegate.write(_lineSeparator);
+				_delegate.Write(s);
+				_delegate.Write(_lineSeparator);
 				_column = 0;
 			}
 			catch (IOException e)
@@ -120,11 +113,12 @@ namespace IO
 			}
 		}
 
-		private void uncheckedWrite(String s)
+		///<remarks />
+		private void UncheckedWrite(string s)
 		{
 			try
 			{
-				_delegate.write(s);
+				_delegate.Write(s);
 			}
 			catch (IOException e)
 			{
@@ -132,50 +126,49 @@ namespace IO
 			}
 		}
 
-		public void writeLines(String lines)
+		///<remarks />
+		public void WriteLines(string lines)
 		{
-			BufferedReader lineReader = new BufferedReader(new StringReader(lines));
-			String line;
+			StreamReader lineReader = new StreamReader(new StringReader(lines));
+			string line;
 			try
 			{
 				while (null != (line = lineReader.readLine()))
 				{
 					if (line.trim().length() > 0)
 					{
-						writeIndentedLine(line);
+						WriteIndentedLine(line);
 					}
 					else
 					{
-						writeLine();
+						WriteLine();
 					}
 				}
 			}
-			catch (java.io.IOException x)
+			catch (IOException x)
 			{
 				throw new RuntimeException(x);
 			}
 		}
 
-		public void linePrefix(String prefix)
+		///<remarks />
+		public void LinePrefix(string prefix)
 		{
 			_prefix = prefix;
 		}
 
-		public void writeIndentation()
+		///<remarks />
+		public void WriteIndentation()
 		{
 			for (int i = 0; i < _indentLevel; ++i)
 			{
-				uncheckedWrite(_indentString);
+				uncheckedWrite(_indentstring);
 			}
 			if (null != _prefix)
 			{
 				uncheckedWrite(_prefix);
 			}
 		}
-
-		public Writer delegate () {
-		return _delegate;
-	}
 
 }
 }
