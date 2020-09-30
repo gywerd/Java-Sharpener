@@ -1,0 +1,20 @@
+C:\Users\Daniel\source\repos\Java-Sharpener\src\Java Sharpener\bin\Debug\net5.0\JavaSharpener.exe
+C:\Users\Daniel\source\repos\Java-Sharpener\src\Java Sharpener\bin\Debug\net5.0\JavaSharpener.deps.json
+C:\Users\Daniel\source\repos\Java-Sharpener\src\Java Sharpener\bin\Debug\net5.0\JavaSharpener.runtimeconfig.json
+C:\Users\Daniel\source\repos\Java-Sharpener\src\Java Sharpener\bin\Debug\net5.0\JavaSharpener.runtimeconfig.dev.json
+C:\Users\Daniel\source\repos\Java-Sharpener\src\Java Sharpener\bin\Debug\net5.0\JavaSharpener.dll
+C:\Users\Daniel\source\repos\Java-Sharpener\src\Java Sharpener\bin\Debug\net5.0\JavaSharpener.pdb
+C:\Users\Daniel\source\repos\Java-Sharpener\src\Java Sharpener\bin\Debug\net5.0\JavaSharpener.xml
+C:\Users\Daniel\source\repos\Java-Sharpener\src\Java Sharpener\obj\Debug\net5.0\Java Sharpener.csprojAssemblyReference.cache
+C:\Users\Daniel\source\repos\Java-Sharpener\src\Java Sharpener\obj\Debug\net5.0\MainWindow.g.cs
+C:\Users\Daniel\source\repos\Java-Sharpener\src\Java Sharpener\obj\Debug\net5.0\App.g.cs
+C:\Users\Daniel\source\repos\Java-Sharpener\src\Java Sharpener\obj\Debug\net5.0\JavaSharpener_MarkupCompile.cache
+C:\Users\Daniel\source\repos\Java-Sharpener\src\Java Sharpener\obj\Debug\net5.0\JavaSharpener_MarkupCompile.lref
+C:\Users\Daniel\source\repos\Java-Sharpener\src\Java Sharpener\obj\Debug\net5.0\MainWindow.baml
+C:\Users\Daniel\source\repos\Java-Sharpener\src\Java Sharpener\obj\Debug\net5.0\JavaSharpener.g.resources
+C:\Users\Daniel\source\repos\Java-Sharpener\src\Java Sharpener\obj\Debug\net5.0\Java Sharpener.AssemblyInfoInputs.cache
+C:\Users\Daniel\source\repos\Java-Sharpener\src\Java Sharpener\obj\Debug\net5.0\Java Sharpener.AssemblyInfo.cs
+C:\Users\Daniel\source\repos\Java-Sharpener\src\Java Sharpener\obj\Debug\net5.0\Java Sharpener.csproj.CoreCompileInputs.cache
+C:\Users\Daniel\source\repos\Java-Sharpener\src\Java Sharpener\obj\Debug\net5.0\JavaSharpener.dll
+C:\Users\Daniel\source\repos\Java-Sharpener\src\Java Sharpener\obj\Debug\net5.0\JavaSharpener.pdb
+C:\Users\Daniel\source\repos\Java-Sharpener\src\Java Sharpener\obj\Debug\net5.0\Java Sharpener.genruntimeconfig.cache

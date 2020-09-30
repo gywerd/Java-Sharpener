@@ -5,7 +5,7 @@
   },
   "projects": {
     "C:\\Users\\Daniel\\source\\repos\\Java-Sharpener\\src\\Internal\\Internal.csproj": {
-      "version": "1.0.0",
+      "version": "0.1.1",
       "restore": {
         "projectUniqueName": "C:\\Users\\Daniel\\source\\repos\\Java-Sharpener\\src\\Internal\\Internal.csproj",
         "projectName": "Internal",
@@ -21,14 +21,14 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net5.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
+          "net5.0": {
             "projectReferences": {}
           }
         },
@@ -39,7 +39,7 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
+        "net5.0": {
           "imports": [
             "net461",
             "net462",
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100-preview.6.20318.15\\RuntimeIdentifierGraph.json"
         }
       }
     }

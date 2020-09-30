@@ -1,0 +1,4 @@
+C:\Users\Daniel\source\repos\Java-Sharpener\src\Framework\obj\Debug\net5.0\Framework.csprojAssemblyReference.cache
+C:\Users\Daniel\source\repos\Java-Sharpener\src\Framework\obj\Debug\net5.0\Framework.AssemblyInfoInputs.cache
+C:\Users\Daniel\source\repos\Java-Sharpener\src\Framework\obj\Debug\net5.0\Framework.AssemblyInfo.cs
+C:\Users\Daniel\source\repos\Java-Sharpener\src\Framework\obj\Debug\net5.0\Framework.csproj.CoreCompileInputs.cache
