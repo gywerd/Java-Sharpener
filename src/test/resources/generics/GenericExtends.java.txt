@@ -1,8 +1,0 @@
-package generics;
-
-class GenericBase<K, V> {
-}
-
-class GenericExtends extends GenericBase<String, Integer> {
-}
-

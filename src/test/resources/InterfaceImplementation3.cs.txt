@@ -1,9 +1,0 @@
-internal interface Foo
-{
-	void foo();
-}
-
-internal abstract class FooImpl : Foo
-{
-	public abstract void foo();
-}

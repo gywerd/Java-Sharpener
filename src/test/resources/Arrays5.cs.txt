@@ -1,7 +1,0 @@
-public class Arrays5
-{
-	public static void run()
-	{
-		string[][] strings = new string[][] { new string[] { "a" }, new string[] { "b" } };
-	}
-}

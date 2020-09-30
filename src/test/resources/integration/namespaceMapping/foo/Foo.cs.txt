@@ -1,6 +1,0 @@
-namespace UbberFoo
-{
-	public class FooFactory
-	{
-	}
-}

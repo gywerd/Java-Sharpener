@@ -1,7 +1,0 @@
-package problems;
-
-public class Spam {
-	Eggs getEggs() {
-		return null;
-	}
-}

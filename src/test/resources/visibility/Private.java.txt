@@ -1,9 +1,0 @@
-package visibility;
-
-public class Private {
-
-	/**
-	 * @sharpen.private
-	 */
-	public int _field;
-}

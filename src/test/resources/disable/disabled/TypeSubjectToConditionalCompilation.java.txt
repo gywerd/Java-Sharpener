@@ -1,4 +1,0 @@
-package disable.disabled;
-
-class IWillBeSubjectToConditionalCompilation {
-}

@@ -1,9 +1,0 @@
-public class Cast1
-{
-	private string _name;
-
-	public virtual void setName(object name)
-	{
-		_name = (string)name;
-	}
-}

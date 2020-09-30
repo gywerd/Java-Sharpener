@@ -1,9 +1,0 @@
-namespace renaming
-{
-	internal class SimpleMethodRenaming
-	{
-		public virtual void _test()
-		{
-		}
-	}
-}

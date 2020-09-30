@@ -1,8 +1,0 @@
-package generics;
-
-interface GenericInterface<K, V> {
-}
-
-class GenericImplements implements GenericInterface<String, Integer> {
-}
-

@@ -1,5 +1,0 @@
-public class InstanceOf1 {
-	public static boolean isString(Object obj) {
-		return obj instanceof String;
-	}
-}

@@ -1,6 +1,0 @@
-public class FinalMethod1
-{
-	public void foo()
-	{
-	}
-}

@@ -1,9 +1,0 @@
-namespace ignore
-{
-	public class IgnoreExtends : java.lang.Runnable
-	{
-		public virtual void run()
-		{
-		}
-	}
-}

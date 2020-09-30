@@ -1,9 +1,0 @@
-namespace ignore
-{
-	public class IgnoreImplements : object
-	{
-		public virtual void run()
-		{
-		}
-	}
-}

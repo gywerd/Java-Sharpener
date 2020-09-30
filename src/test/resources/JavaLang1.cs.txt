@@ -1,3 +1,0 @@
-public class JavaLang1 : java.lang.Thread
-{
-}

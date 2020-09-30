@@ -1,4 +1,0 @@
-package disable.disabled.subpackage;
-
-class TypesInSubPackagesShouldBeDisabledAlso {
-}

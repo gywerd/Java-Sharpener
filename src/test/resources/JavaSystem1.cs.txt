@@ -1,7 +1,0 @@
-public class JavaSystem1
-{
-	public static void Main(string[] args)
-	{
-		System.Console.Out.WriteLine(Sharpen.Runtime.identityHashCode("Hello!"));
-	}
-}

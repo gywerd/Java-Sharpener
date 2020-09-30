@@ -1,8 +1,0 @@
-public class Arrays3
-{
-	public static void run()
-	{
-		string[] s = new string[] { "foo", "bar" };
-		int[][] array = null;
-	}
-}

@@ -1,7 +1,0 @@
-package interfaces;
-
-public class MappedBaseFoo implements Foo {
-}
-
-interface Foo {
-}

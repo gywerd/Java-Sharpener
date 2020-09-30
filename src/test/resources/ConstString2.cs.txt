@@ -1,4 +1,0 @@
-public class ConstString2
-{
-	public const string Message = "\tThis is an ex parrot!\n\tThis is parrot is no more!";
-}

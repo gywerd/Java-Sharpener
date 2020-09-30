@@ -1,5 +1,0 @@
-public class GetClass1 {
-	public static boolean isArray(Object o) {
-		return o.getClass().isArray();
-	}
-}

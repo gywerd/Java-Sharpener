@@ -1,3 +1,0 @@
-public class Transient1 {
-	public transient String _foo;
-}

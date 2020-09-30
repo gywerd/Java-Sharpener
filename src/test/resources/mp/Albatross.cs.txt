@@ -1,6 +1,0 @@
-namespace mp
-{
-	public class Albatross
-	{
-	}
-}

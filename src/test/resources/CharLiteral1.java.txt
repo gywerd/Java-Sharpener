@@ -1,3 +1,0 @@
-public class CharLiteral1 {
-	public static final char A = 'A';
-}

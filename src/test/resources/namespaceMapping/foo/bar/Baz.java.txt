@@ -1,6 +1,0 @@
-package namespaceMapping.foo.bar;
-
-public class Baz {
-	public final void bar(byte b, short s, int i, long j, char c, float f, double d) {
-	}
-}

@@ -1,8 +1,0 @@
-public class PrintStackTrace1 {
-	public static void run() {
-		new Exception().printStackTrace();
-		Exception e = new Exception();
-		e.printStackTrace();
-		e.printStackTrace(System.out);
-	}
-}

@@ -1,9 +1,0 @@
-namespace NamespaceMapping.Foo.Bar
-{
-	public class Baz
-	{
-		public void Bar(byte b, short s, int i, long j, char c, float f, double d)
-		{
-		}
-	}
-}

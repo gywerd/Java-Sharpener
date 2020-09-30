@@ -1,7 +1,0 @@
-package integration.namespaceMapping.foo;
-
-/**
- * @sharpen.rename FooFactory
- */
-public class Foo {
-}

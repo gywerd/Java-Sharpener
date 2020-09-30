@@ -1,4 +1,0 @@
-package namespaceMapping.out.event;
-
-public class Foo {
-}

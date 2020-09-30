@@ -1,7 +1,0 @@
-namespace visibility
-{
-	public class Private
-	{
-		private int _field;
-	}
-}

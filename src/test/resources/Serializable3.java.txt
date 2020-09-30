@@ -1,9 +1,0 @@
-
-interface IBaz extends java.io.Serializable {
-}
-
-interface IBar extends IBaz {
-}
-
-class Bar implements IBar {
-}

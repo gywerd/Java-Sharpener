@@ -1,9 +1,0 @@
-package renaming;
-
-public class AllUpperCaseIdentifiers {
-	/**
-	 * {@link AllUpperCaseIdentifiers#FOO_BAR}
-	 */
-	public final Object FOO = null;
-	public final Object FOO_BAR = null;
-}

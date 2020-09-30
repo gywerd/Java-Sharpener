@@ -1,7 +1,0 @@
-package interfaces;
-
-/**
- * See {@link interfaces.BaseFoo#BAR}
- */
-public class FooImpl implements Foo {
-}

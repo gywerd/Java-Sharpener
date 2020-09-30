@@ -1,7 +1,0 @@
-package visibility;
-
-/**
- * @sharpen.internal
- */
-public class Internal {
-}

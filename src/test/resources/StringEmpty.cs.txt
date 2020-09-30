@@ -1,9 +1,0 @@
-public class StringEmpty
-{
-	public string f = string.Empty;
-
-	public virtual void foo()
-	{
-		f = string.Empty;
-	}
-}

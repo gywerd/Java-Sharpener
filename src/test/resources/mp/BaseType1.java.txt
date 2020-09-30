@@ -1,7 +1,0 @@
-package mp;
-
-class BaseType {
-}
-
-class FinalType extends BaseType {
-}

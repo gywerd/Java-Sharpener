@@ -1,8 +1,0 @@
-namespace events
-{
-	public interface EventInterface
-	{
-		/// <summary>An event.</summary>
-		event System.EventHandler<events.QueryEventArgs> QueryStarted;
-	}
-}

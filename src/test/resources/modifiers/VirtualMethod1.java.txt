@@ -1,6 +1,0 @@
-package modifiers; 
-
-public class VirtualMethod1 {
-	public void foo() {
-	}
-}

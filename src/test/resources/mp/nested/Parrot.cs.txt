@@ -1,6 +1,0 @@
-namespace mp.nested
-{
-	public class Parrot
-	{
-	}
-}

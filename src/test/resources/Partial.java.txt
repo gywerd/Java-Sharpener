@@ -1,5 +1,0 @@
-/**
- * @sharpen.partial
- */
-abstract class Foo {
-}

@@ -1,8 +1,0 @@
-public class NestedInterface1 {
-	public interface Foo {
-		void foo();
-	}
-	
-	public void bar() {
-	}
-}

@@ -1,7 +1,0 @@
-namespace Usings
-{
-	public class SimpleTest
-	{
-		private SimpleTest _test;
-	}
-}
